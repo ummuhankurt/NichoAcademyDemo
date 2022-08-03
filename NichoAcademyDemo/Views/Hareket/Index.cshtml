@@ -1,0 +1,9 @@
+﻿@model List<NichoAcademyDemo.Model.Entities.Concrete.Hareket>
+<ul>
+    @foreach (var hareket in Model)
+    {
+        <li>@hareket.Ders</li>
+        <li>@hareket.Ogrenci</li>
+        <li>@hareket.Video</li>
+    }
+</ul>

@@ -1,0 +1,8 @@
+﻿@model List<NichoAcademyDemo.Model.Entities.Concrete.Video>
+<ul>
+    @foreach (var video in Model)
+    {
+        <li>@video.Ders</li>
+        <li>@video.Url</li>
+    }
+</ul>

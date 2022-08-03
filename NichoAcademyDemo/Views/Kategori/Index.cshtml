@@ -1,0 +1,10 @@
+﻿@model List<NichoAcademyDemo.Model.Entities.DersDetail>
+<ul>
+    @foreach (var kategori in Model)
+    {
+        <li>Kategori : </li>
+        <li>@kategori.KategoriAd</li>
+        <li>Ders : </li>
+        <li>@kategori.DersAdi</li>
+    }
+</ul>

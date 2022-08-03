@@ -1,0 +1,10 @@
+﻿@model List<NichoAcademyDemo.Model.Entities.Concrete.Ogrenci>
+<ul>
+    @foreach (var ogrenci in Model)
+    {
+        <li>@ogrenci.Ad</li>
+        <li>@ogrenci.Soyad</li>
+        <li>@ogrenci.Email</li>
+        <li>@ogrenci.Sinif</li>
+    }
+</ul>
